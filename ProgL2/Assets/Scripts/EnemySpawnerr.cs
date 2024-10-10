@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class EnemySpawner : MonoBehaviour
+public class EnemySpawnerr : MonoBehaviour
 {
     public GameObject enemyPrefab; 
     public Transform centerPoint;

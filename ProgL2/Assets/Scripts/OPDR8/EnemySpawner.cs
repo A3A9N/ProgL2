@@ -14,7 +14,6 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
-        // Kies willekeurig tussen EnemyParent, Brute en Elf
         int choice = Random.Range(0, 3);
         GameObject enemyToSpawn = enemyParentPrefab;
 

@@ -18,7 +18,6 @@ public class EnemyParent : MonoBehaviour
 
     protected virtual void Move()
     {
-        // Beweeg van links naar rechts langs de x-as
         transform.Translate(Vector3.right * speed * Time.deltaTime);
     }
 
@@ -42,8 +41,8 @@ public class EnemyParent : MonoBehaviour
     {
         if (other.CompareTag("Projectile"))
         {
-            TakeDamage(10); // Schade waarde kan aangepast worden
-            Destroy(other.gameObject); // Vernietig het projectiel
+            TakeDamage(10); 
+            Destroy(other.gameObject); 
         }
     }
 }

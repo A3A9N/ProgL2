@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ShootFromCamera : MonoBehaviour
 {
-    public GameObject projectilePrefab; // Sleep je ProjectilePrefab hierheen via de Inspector
+    public GameObject projectilePrefab; 
 
     private Plane floor;
 

@@ -16,7 +16,7 @@ public class MoveProj : MonoBehaviour
             EnemyParent enemy = other.GetComponent<EnemyParent>();
             if (enemy != null)
             {
-                enemy.TakeDamage(10); // Schade waarde kan aangepast worden
+                enemy.TakeDamage(10);
             }
             Destroy(gameObject);
         }

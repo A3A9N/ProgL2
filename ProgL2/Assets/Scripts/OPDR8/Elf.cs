@@ -6,7 +6,7 @@ public class Elf : EnemyParent
     void Start()
     {
         maxHealth = 50;
-        speed = 10f;
+        speed = 5f;
         currentHealth = maxHealth;
 
         StartCoroutine(ToggleVisibility());
@@ -16,7 +16,7 @@ public class Elf : EnemyParent
     {
         while (currentHealth > 0)
         {
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(2f);
             Renderer renderer = GetComponent<Renderer>();
             if (renderer != null)
             {

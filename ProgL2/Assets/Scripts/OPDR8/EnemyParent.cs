@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EnemyParent : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed = 3f;
     public int maxHealth = 50;
     protected int currentHealth;
 
